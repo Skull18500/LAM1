@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 from safetensors.torch import save_model, load_model
 from tqdm import tqdm
-from random_stuff import LightAngleRotate, TriangleDistActivation
+from TBAF import TBAF
 
 # ------------------------------------------------------------
 # 1. TinyLAM (unchanged architecture, but training logic fixed)
@@ -27,7 +27,7 @@ class GlobalLAM(nn.Module):
 
         self.decoder = nn.Sequential(
             nn.ConvTranspose2d(latent_dim, 33, 4, stride=2, padding=1),  # 1 → 2
-            TriangleDistActivation(33),  # custom activation to mix channels
+            TBAF(33),  # custom activation to mix channels
             nn.ConvTranspose2d(33, 16, 4, stride=2, padding=1),          # 2 → 4
             nn.SiLU(),
             nn.ConvTranspose2d(16, 8, 4, stride=2, padding=1),           # 4 → 8
