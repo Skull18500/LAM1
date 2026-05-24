@@ -68,3 +68,6 @@ If you use TBAF in your research or project, please cite it:
 If you can and are willing, please donate to help future projects like this. I am currently using an RTX 4060. Here is my KoFi page
 
 https://ko-fi.com/skull18500
+
+If you want to check out other Models i have made:
+https://huggingface.co/Skull18500
