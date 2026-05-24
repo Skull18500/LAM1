@@ -4,4 +4,5 @@ I used a custom triangle based activation function. Only once in the entire mode
 an almost EXACT downscaled version of the original image.
 
 One command and you can see the power unlocked by triangle distance manifolds:
-python 
+
+python testLAM3.py
