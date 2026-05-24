@@ -43,7 +43,8 @@ I have only tested this in CNN based autoencoders, so i do not know how this cou
 As shown above, the corners of the image and the edges of UI objects tends to become very bright, but that is purely the CNNs failing to reconstruct the image properly.
 
 
-One command and you can see the power unlocked by triangle distance manifolds:
+Two commands and you can see the power unlocked by triangle distance manifolds:
+`pip install -r requirements.txt`
 
 `python testLAM3.py`
 That will read a file named "download1.png", then generate 10k images autoregressivly saving to a video file, then it will create a "finalframe.png", the last frame(frame 10k).
