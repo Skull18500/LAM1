@@ -1,0 +1,6 @@
+torch
+safetensors
+tqdm
+cv2
+numpy
+PIL
