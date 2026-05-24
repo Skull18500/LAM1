@@ -24,3 +24,18 @@ where $\bigoplus$ denotes the concatenation operator across all groups $G$, and 
 One command and you can see the power unlocked by triangle distance manifolds:
 
 python testLAM3.py
+
+
+
+##  Citation
+If you use TBAF in your research or project, please cite it:
+
+```bibtex
+@misc{skull18500_tbaf_2026,
+  author = {Skull18500},
+  title = {Triangle-Based Activation Function (TBAF)},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{[https://github.com/Skull18500/TBAF](https://github.com/Skull18500/TBAF)}}
+}
