@@ -50,6 +50,15 @@ Two commands and you can see the power unlocked by triangle distance manifolds:
 That will read a file named "download1.png", then generate 10k images autoregressivly saving to a video file, then it will create a "finalframe.png", the last frame(frame 10k).
 
 
+## Support
+If you can and are willing, please donate to help future projects like this. I am currently using an RTX 4060. Here is my KoFi page
+
+https://ko-fi.com/skull18500
+
+If you want to check out other Models i have made:
+https://huggingface.co/Skull18500
+
+
 
 ##  Citation
 If you use TBAF in your research or project, please cite it:
@@ -64,10 +73,3 @@ If you use TBAF in your research or project, please cite it:
   howpublished = {\url{[https://github.com/Skull18500/TBAF](https://github.com/Skull18500/TBAF)}}
 }
 
-
-If you can and are willing, please donate to help future projects like this. I am currently using an RTX 4060. Here is my KoFi page
-
-https://ko-fi.com/skull18500
-
-If you want to check out other Models i have made:
-https://huggingface.co/Skull18500
